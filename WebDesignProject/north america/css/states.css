@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar {
+  background: rgba(28, 28, 29, 0.7);
+  z-index: 2;
+}
+
+.navbar-brand img {
+  width: 100px;
+}
+
+.nav-link {
+  color: lightblue !important;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: 'Poppins',sans-serif;
+}
+
+.nav-link .fas {
+  color: darkgoldenrod;
+  padding: 10px;
+}
+
+.dropdown-menu {
+  background: rgba(130, 173, 229, 0.7);
+  width: 200px;
+}
+
+.dropdown-menu li a {
+  color: white;
+  font-weight: 500;
+  font-family: 'Poppins',sans-serif;
+}
+
+.language {
+  font-size: 1em;
+  color: #c3c3e7 !important;
+}
+
+.language i {
+  color: #e63131 !important;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+
+.carousel-item .carousel-caption {
+  bottom: 220px;
+}
+
+.carousel-item .carousel-caption h5 {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #03160a;
+  margin-top: 25px;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+}
+
+.carousel-item .carousel-caption p {
+  width: 60%;
+  margin: auto;
+  font-size: 1.2em;
+  line-height: 1.9;
+  font-family: 'Poppins',sans-serif;
+}
+
+.carousel-item .carousel-caption p a {
+  text-decoration: none;
+  color: white;
+  background: rgba(9, 114, 79, 0.5);
+}
+
+.carousel-item .carousel-caption p a:hover {
+  color: darkgoldenrod;
+}
+
+.comment {
+  background: -webkit-gradient(linear, left top, left bottom, from(lightgray), to(#9198e5));
+  background: linear-gradient(lightgray, #9198e5);
+}
+
+.comment p {
+  font-size: 1.3rem;
+  font-family: 'Josefin Sans';
+}
+
+.comment p.customer {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+footer {
+  margin-top: 0px !important;
+  padding-top: 0px;
+  background: black;
+}
+
+footer .box2 {
+  position: relative;
+}
+
+footer .box2 img {
+  width: 80%;
+}
+
+footer .box2 h5 {
+  position: relative;
+  left: 10%;
+  color: lightblue;
+  text-align: left;
+}
+
+footer .box2 ul {
+  list-style: none;
+}
+
+footer .box2 ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.line1 {
+  position: relative;
+}
+
+.line1 hr {
+  position: relative;
+  left: 10%;
+  width: 80%;
+  color: lightseagreen;
+  height: 2px;
+  text-align: center;
+}
+
+.copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.copyright ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 20px;
+  list-style: none;
+  position: relative;
+  left: 10%;
+}
+
+.copyright ul li {
+  margin-right: 15px;
+}
+
+.copyright ul li a:hover {
+  color: darkgoldenrod;
+}
+
+.copyright p {
+  position: relative;
+  left: 50%;
+  color: white;
+}
+
+.copy {
+  padding-top: 20px;
+}
+/*# sourceMappingURL=states.css.map */

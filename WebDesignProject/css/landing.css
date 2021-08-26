@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+.showcase {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 5rem;
+  background: #0c0c22;
+}
+
+.showcase .active {
+  right: 300px;
+}
+
+.showcase header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 5rem;
+  z-index: 1000;
+}
+
+.showcase header .logo {
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.showcase header .logo h2 {
+  color: rgb(230, 170, 20);
+}
+
+.showcase header .toggle {
+  position: relative;
+  
+  color: rgb(230, 170, 20);
+  font-size: 2rem;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.showcase .social {
+  z-index: 1000;
+  position: absolute;
+  bottom: 20px;
+  left:20px;
+}
+
+.showcase .social li {
+  list-style: none;
+}
+
+.showcase .social li a {
+  display: inline-block;
+  -webkit-filter: invert(1);
+          filter: invert(1);
+  margin-top: 1em;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.showcase .social li a:hover {
+  -webkit-transform: translateX(-10px);
+          transform: translateX(-10px);
+}
+
+.showcase video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.showcase .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: gray;
+  mix-blend-mode: overlay;
+}
+
+.showcase .text {
+  position: relative;
+  left: 25%;
+  top: 150px;
+  z-index: 10;
+  color: lightgray;
+}
+
+.showcase .text h2 {
+  font-size: 4em;
+  font-weight: 800;
+  line-height: 1.2em;
+  text-transform: uppercase;
+}
+
+.showcase .text p {
+  font-size: 1.5em;
+  font-weight: 500;
+  max-width: 1200px;
+}
+
+.showcase .text a {
+  position: relative;
+  left: 60%;
+  color: white;
+  border:2px solid lightblue;
+}
+
+.showcase .text a:hover {
+  color: #fab404;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  font-weight: 500;
+}
+
+.menu {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+  
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.menu ul {
+  position: relative;
+  list-style: none;
+  
+}
+
+.menu ul a {
+  color:white;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+.menu ul a:hover {
+  color: #fab60b;
+}
+.showcase.active{
+  right:300px;
+}
+
+@media (max-width: 798px) {
+  .logo {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    max-width: 160px;
+  }
+  .logo h2 {
+    font-size: 0.8em;
+  }
+  .logo img {
+    max-width: 160px;
+  }
+  .showcase .text h2 {
+    font-size: 2.5em;
+  }
+  .showcase .text p {
+    font-size: 1.5em;
+  }
+  .toggle{
+    position:relative;
+    left:80%;
+  }
+}
+@media (max-width:991px){
+  .logo h2 {
+    font-size: 1em;
+  }
+  .showcase  .text{
+    max-width: 500px;
+  }
+  
+}
+/*# sourceMappingURL=landing.css.map */

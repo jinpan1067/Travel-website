@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4074aad4ea.js"
+        crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+        crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" href="./css/home.css">
+
+
+    <title>Home page</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo.png" alt="company logo">
+            </a>
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav navbar-right ms-auto mx-5 mb-2 mb-md-0">
+                    <li class="nav-item px-5">
+                        <a class="nav-link active" aria-current="page"
+                            href="#"><i class="fas fa-home fa-2x"></i>Acceuil</a>
+                    </li>
+                    <li class="nav-item dropdown px-3">
+                        <a class="nav-link dropdown-toggle" href="#"
+                            id="dropdown02" data-bs-toggle="dropdown"
+                            aria-expanded="false"><i
+                                class="fas fa-swatchbook fa-2x"></i>Le Club</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown02">
+                            <li><a class="dropdown-item" href="#aboutUs">Qui sommes nous</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">
+                                Adhésion</a></li>
+
+                        </ul>
+
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#"><i
+                                class="fas fa-images fa-2x"></i>Service</a>
+                    </li>
+                    <li class="nav-item dropdown px-3">
+                        <a class="nav-link dropdown-toggle" href="#"
+                            id="dropdown01" data-bs-toggle="dropdown"
+                            aria-expanded="false"><i
+                                class="fas fa-plane-departure fa-2x"></i>Destination</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                            <li><a class="dropdown-item" href="/north america/states.html">
+                                    America du Nord</a>
+                            </li>
+                            <li><a class="dropdown-item" href="/china/indexFR.html">Asia
+                                </a></li>
+                            <li><a class="dropdown-item" href="#">Europe
+                                </a></li>
+                        </ul>
+
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link language" href="home.html"><i
+                                class="fas fa-globe"></i>English</a>
+
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search"
+                        placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-info"
+                        type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="body-container">
+        <div class="slider-one">
+            <div class="slide-one-image">
+                <div class="slider-text">
+                    <h1>HangZhou,Chine</h1>
+                    <p> connu sous le nom de "paradis sur terre", avec son magnifique
+                        beauté et riche patrimoine culturel.</p>
+                </div>
+            </div>
+        </div>
+        <div class="slider-two">
+            <div class="slide-two-image">
+                <div class="slider-text">
+                    <h1>Parc national du Grand Canyon, États-Unis</h1>
+                    <p>un site du patrimoine mondial de l'UNESCO et noté comme l'un des meilleurs
+                        merveilles du monde</p>
+                </div>
+            </div>
+        </div>
+        <div class="slider-three">
+            <div class="slide-three-image">
+                <div class="slider-text">
+                    <h1>Great Wall,Chine</h1>
+                    <p>une merveille du monde, se présente comme un monument impressionnant
+                        à la grandeur de l'histoire ancienne de la Chine</p>
+                </div>
+            </div>
+        </div>
+        <div class="slider-four">
+            <div class="slide-four-image">
+                <div class="slider-text">
+                    <h1>Parc national de Yosemite, États-Unis</h1>
+                    <p>un sanctuaire de la prévoyance humaine, la force du granit, le
+                        la puissance des glaciers, la persistance de la vie et la
+                        tranquillité de la High Sierra.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+
+        <section class=" container">
+            <img class="img-small" src="china/images/card3.jpg" alt="">
+            <h2 class="season">Les saisons de voyage</h2>
+            <h2>Charmant toute l'année</h2>
+            <p class="lead text-muted">Il y a tellement de choses à voir et
+                expérience dans l'ouest des États-Unis et de la Chine, en savoir plus sur
+                souscrire à des vacances de luxe sûres dès aujourd'hui.</p>
+           <a href="/china/index.html" class="btn btn-primary my-2">Plus d'Info</a>
+
+        </section>
+
+        <div id="aboutUs" class="container-fluid about row ">
+            <img src="./images/countryside.jpeg" alt="china">
+
+            <div class="col-md-7 company mt-5">
+                <h2 class="text-center text-uppercase mb-5">
+                    <i class="fas fa-dove mx-5"></i>Qui nous sommes
+                </h2>
+                <p class="mx-5"><span>At</span>Chez Qing Travel Club, nous pensons que bien voyager est
+                    partie
+                    de vivre une vie inspirée. Nous prenons grand plaisir à
+                    aider nos membres à enrichir leur vie avec des voyages luxueux
+                    expériences: il n’existe pas de meilleur moyen de créer des souvenirs durables
+                    en famille et entre amis
+                </p>
+                <div>
+                    <a href="#"
+                        class="btn btn-outline-secondary my-2 text-uppercase"><span>connaître
+                            Suite</span>
+                    </a>
+                    <button
+                        class="btn btn-success my-2 text-uppercase start-btn" onclick="startup();">enregistrer
+                        maintenant
+                </button>
+                    <div class="center modal-box text-center">
+                        <div class="fas fa-times"></div>
+                       <div class="fas fa-leaf icon1 mb-3"></div>
+                        <h2>Ne manquez pas les mises à jour de notre part!</h2>
+                        <p>Abonnez-vous à notre e-mail de nouvelles et recevez les dernières promotions et mises à jour directement dans votre e-mail</p>
+                        <form>
+                            <div class="fas fa-envelope icon2"></div>
+                            <input type="text" name="email" placeholder="abc@example.com">
+                            <button>Abonnez-vous</button>
+                        </form>
+                        <div class="icons mt-4">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container introduce">
+            <div class="text-center"><i class="fab fa-canadian-maple-leaf"></i>
+            </div>
+            <h2 class="text-center text-capitalize my-4">Ce qui nous rend spécial ...
+            </h2>
+            <div class="card-group">
+                <div class="card mx-3">
+                    <img src="./images/culture1.jpg" class="card-img-top"
+                        alt="culture1">
+                    <div class="card-body">
+                        <h5 class="card-title mb-3">CONNAISSANCE</h5>
+                        <p class="card-text">Qing a une connaissance approfondie des États-Unis
+                            et la Chine; notre personnel, nos services et nos partenaires peuvent prendre
+                            vos clients dans toutes les villes d'art et tous les bords de mer,
+                            montagnes, lacs et destinations de campagne</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">VOIR PLUS</small>
+                    </div>
+                </div>
+                <div class="card mx-3">
+                    <img src="./images/culture7.jpg" class="card-img-top"
+                        alt="culture7">
+                    <div class="card-body">
+                        <h5 class="card-title mb-3">DÉVOUEMENT</h5>
+                        <p class="card-text">Notre équipe de designers de voyages
+                            prendre soin de tous les besoins des clients et offrir
+                            une expérience de voyage qui reflète vraiment leur
+                            passions et leurs désirs.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">VOIR PLUS</small>
+                    </div>
+                </div>
+                <div class="card mx-3">
+                    <img src="./images/culture6.jpg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title mb-3">EXCLUSIVITÉ</h5>
+                        <p class="card-text">Grâce à notre force commerciale
+                            et antécédents, nous pouvons garantir un accès privilégié à
+                            tarifs réservés, disponibilités, commodités et
+                            meilleure sélection d'hôtels et de services de luxe
+                            fournisseurs.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">VOIR PLUS</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box pt-4 mt-5 ">
+            <h1 class="text-center fw-bold text-uppercase pb-5 mt-5">Notre
+                partenaires</h1>
+            <hr class="mb-5">
+            
+            <div class=" logo-slider mb-3 ">
+
+                <div class="item"><img src="./images/hilton.png" class="img-partner"   alt="hilton"></div>
+                
+                <div class="item"><img src="./images/adidas.png"  class="img-partner" alt="adidas"></div>
+                
+                <div class="item"><img src="./images/jingdong.png"  class="img-partner"  alt="jingdong"></div>
+                        
+                <div class="item"><img src="./images/citi.png"  class="img-partner"  alt="citi"></div>
+                <div class="item"><img src="./images/airchina.png" class="img-partner"   alt="airchina"></div>
+                        
+                <div class="item"><img src="./images/four.png" class="img-partner" alt="four season"></div>
+                     
+            </div>
+            <p class="copy text-center fw-bold mt-1 pt-5 mb-5">Tous les droits
+                Réservé & copy;
+                Qing
+                Club de voyage</p>
+        </div>
+
+    </main>
+    <footer class="footer mt-auto pt-5">
+
+        <div class="container-fluid top-box">
+            <div class="row second-box">
+                <div class="col-md-1"></div>
+
+                <div class="col-md-2 box2">
+                    <h5>Entreprise</h5>
+                    <ul>
+                        <li><a href="#">À propos de nous</a></li>
+                        <li><a href="#">presse</a></li>
+                        <li><a href="#">galerie vidéo</a></li>
+                        <li><a href="#">Carrières</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 box2">
+                    <h5>Aider</h5>
+                    <ul>
+                        <li><a href="#">Contacter</a></li>
+                        <li><a href="#">Politique de confidentialité</a></li>
+                        <li><a href="#">Mentions légales</a></li>
+                        <li><a href="#">Accessibilité</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 box2">
+                    <img src="./images/logo6.png" alt="logo">
+                </div>
+                <div class="col-md-2 box2">
+                    <h5>Voyage</h5>
+                    <ul>
+                        <li><a href="#">Le Club</a></li>
+                        <li><a href="#">Adhésion</a></li>
+                        <li><a href="#">Qing Club Experience</a></li>
+                        <li><a href="#">Nouvelles promotions</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2  box2">
+                    <h5>Plus</h5>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Magazine</a></li>
+                        <li><a href="#">Qing Real Estate</a></li>
+                        <li><a href="#">boutique</a></li>
+                    </ul>
+                </div>
+
+
+
+                <div class="col-md-1"></div>
+            </div>
+            <div class="line1">
+                <hr>
+            </div>
+            <div class="copyright text-center">
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook-square"></i></a>
+                    </li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+
+                </ul>
+                <p>copyright &copy; 2021 <span>Qing Travel Club</span></p>
+            </div>
+
+        </div>
+    </footer>
+
+    <script
+        src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        $('.logo-slider').slick({
+            slidesToShow: 5,
+            slideToScroll: 1,
+            dots: true,
+            arrows: true,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            infinite: true,
+        });
+    </script>
+    <script>
+        function startup(){
+            let startBtn = document.querySelector('.start-btn');
+            let modalBox = document.querySelector('.modal-box');
+
+            modalBox.style.visibility ='visible';
+        }
+    </script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    
+
+</body>
+
+</html>
